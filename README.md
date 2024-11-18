@@ -3,7 +3,7 @@
 # Title
 Predictive Model for Weight Loss Using Monte Carlo Simulations
 
-# Team Member
+# Team Members
 Ishan Joshi (ishan2505), Shruti Gossain (shrutigosain), Nishtha Joshi (nj10-15)
 
 ## HYPOTHESIS:
