@@ -1,11 +1,11 @@
 # 2024Fall_projects
 
-HYPOTHESIS:
+## HYPOTHESIS:
 1. How long will an individual take to reduce current weight to the desired weight
 2. How will the different types of workouts (e.g., high-intensity interval training) affect the weight-loss goals when tailored to individual variability
 3. Maybe something related to diet…
 
-Objective:
+## Objective:
 Weight loss is a common goal for many individuals, yet achieving it effectively remains a challenge due to individual variability in responses to diet and exercise. Traditional fitness plans often assume a one-size-fits-all approach, leading to inconsistent results. This project aims to design a Monte Carlo simulation model that incorporates key factors like workout type, intensity, duration, metabolic rate, and caloric intake to predict weight loss outcomes and identify optimal workout strategies. 
 
 In this project, the variables can be categorized into inputs, outputs, and control parameters, as follows:
@@ -50,4 +50,4 @@ The simulation will model relationships like:
 1. Calories Burned = RMR + Workout Burn + Daily Activity Burn
 2. Caloric Deficit = Calories Burned - Caloric Intake
 3. Weight Loss = Caloric Deficit ÷ 7,700 (kcal/kg)
-![image](https://github.com/user-attachments/assets/93dca479-9bd2-4f4d-8ce3-f6a828646d7c)
+
