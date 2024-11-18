@@ -1,5 +1,11 @@
 # 2024Fall_projects
 
+# Title
+Predictive Model for Weight Loss Using Monte Carlo Simulations
+
+# Team Member
+Ishan Joshi (ishan2505), Shruti Gossain (shrutigosain), Nishtha Joshi (nj10-15)
+
 ## HYPOTHESIS:
 1. How long will an individual take to reduce current weight to the desired weight
 2. How will the different types of workouts (e.g., high-intensity interval training) affect the weight-loss goals when tailored to individual variability
