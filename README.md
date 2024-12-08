@@ -4,56 +4,48 @@
 Predictive Model for Weight Loss Using Monte Carlo Simulations
 
 # Team Members
-Ishan Joshi (ishan2505), Shruti Gossain (shrutigosain), Nishtha Joshi (nj10-15)
-
-## HYPOTHESIS:
-1. How long will an individual take to reduce current weight to the desired weight
-2. How will the different types of workouts (e.g., high-intensity interval training) affect the weight-loss goals when tailored to individual variability
-3. Maybe something related to diet…
+Ishan Joshi (ishan2505), Shruti Gosain (shrutigosain), Nishtha Joshi (nj10-15)
 
 ## Objective:
 Weight loss is a common goal for many individuals, yet achieving it effectively remains a challenge due to individual variability in responses to diet and exercise. Traditional fitness plans often assume a one-size-fits-all approach, leading to inconsistent results. This project aims to design a Monte Carlo simulation model that incorporates key factors like workout type, intensity, duration, metabolic rate, and caloric intake to predict weight loss outcomes and identify optimal workout strategies. 
 
-In this project, the variables can be categorized into inputs, outputs, and control parameters, as follows:
+## Hypothese and the Varibles Used:
+## Hypotheses 1: Predicted weight loss over a fixed duration increases as the number of workout days in a week and daily activity level increase. However, individuals with higher initial weight experience greater variability in weight loss due to differences in calorie deficits influenced by resting metabolic rate (RMR) and workout intensity.
 
-# 1. Input Variables
-These variables represent the factors that influence weight loss. They are fed into the simulation to model the system.
-Personal and Biological Factors
-* Initial Weight (kg): The starting weight of the individual
-* Resting Metabolic Rate (RMR, kcal/day): The energy expenditure at rest. (optional)
-* Age (years): Influences metabolic rate and caloric burn efficiency.
-* Gender: Impacts baseline metabolic rate and fat distribution.
+## Fixed Variables (Input from the user):
+1. Initial Weight (lbs): Initial body weight of an individual
+2. Age, Gender, Height: These variables influence the basal metabolic rate (RMR).
+3. Workout Duration (hours): Number of hours a person does the workout in a day.
+4. Calorie Intake (kcal): The number of calories that a person is consuming.
+5. Activity Type and Activity Intensity: These are based on a numerical number called MET value which is different for each activity type and the intensity.
 
-## Exercise Variables 
-* Workout Type: The category of exercise (e.g., cardio, strength training, HIIT).
-* Workout Duration (minutes): Time spent in a workout session.
-* Workout Intensity: Levels of effort (e.g., low, medium, high).
-* Total Calories Burnt : Varies based on type and intensity of exercise.
+## Random Variables:
+1. Number of workout days in a week (days): Total number of workout days in a week.
+2. Daily Activity Level (kcal/day): The number of calories a person burn per day from daily activities like walking etc.
 
-## Other Variables
-* Caloric Intake (kcal/day): Total daily calories consumed. (diet related)
-* Variation in Workout Days (days/week): Random fluctuations in the number of active workout days. (adherence related)
+## Other Derived Variables:
+1. Resting Metabolic Rate (RMR): Calculated based on Age, Gender, Height and Initial Weight.
+2. Workout calories (kcal): Calculated based on workout intensity and its type (MET value).
+3. Total Calories Burned (kcal): Calculated based on the sum of Workout calories, Daily Activity Level and RMR.
+4. Calorie Deficit(kcal): Calculated based on Total Calories Burned(kcal) and Calorie intake(kcal)
+5. Predicted Weight Loss(lbs): Calculated by converting the calories into weight factor.
 
-## Random Variables (Variability)
-* Daily Activity Level (kcal/day): Additional calories burned from daily activities outside planned workouts.
+## Formulae used:
+Resting Metabolic Rate (RMR): The Mifflin-St Jeor equation is widely recognized for estimating RMR:
+  Men: RMR (kcal/day) = 10 × weight (kg) + 6.25 × height (cm) - 5 × age (years) + 5
+  Women: RMR (kcal/day) = 10 × weight (kg) + 6.25 × height (cm) - 5 × age (years) - 161
 
-# 2. Output Variables
-These variables represent the simulation's results and allow the evaluation of hypotheses.
+Reference:
+1. https://en.wikipedia.org/wiki/Basal_metabolic_rate - For getting the formula for RMR/BMR using the The Mifflin St Jeor equation from this link.
+2. https://www.bannerhealth.com/staying-well/health-and-wellness/fitness-nutrition/ideal-weight
+- For setting the range for age and height.
 
-* Predicted Weight Loss (kg): Change in weight over a defined time period.
-* Body Fat Percentage (%): Change in body composition based on caloric deficit.
-* Caloric Deficit
+Workout Calories (kcal): This is calculated using MET values(varying according to activity type and intensity), initial weight and workout duration (fixed)
 
-# 3. Control Parameters
-These variables are set constants or fixed values to manage the simulation environment.
+Workout Calories (kcal): MET value × initial weight (lbs) × workout duration (hours)
+Reference: https://pacompendium.com/adult-compendium/ - For getting the MET values based on activity type and intensity
 
-* Simulation Duration (weeks): Length of time modeled (in months).
-* Number of Iterations: Number of Monte Carlo simulations 
-* Conversion Factor: Caloric deficit required for 1 kg of weight loss 
+Total Calories Burned (kcal): Workout Calories + Daily Activity Level + RMR
 
-## Relationships Between Variables
-The simulation will model relationships like:
-1. Calories Burned = RMR + Workout Burn + Daily Activity Burn
-2. Caloric Deficit = Calories Burned - Caloric Intake
-3. Weight Loss = Caloric Deficit ÷ 7,700 (kcal/kg)
+Calories Deficit (kcal) = Total Calories Burned - Calorie Intake (kcal)
 
