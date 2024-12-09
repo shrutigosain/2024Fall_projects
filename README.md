@@ -12,6 +12,8 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 ## Hypothese and the Varibles Used:
 **Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and daily activity level increase. However, individuals with higher initial weight experience greater variability in weight loss due to differences in calorie deficits influenced by resting metabolic rate (RMR) and workout intensity.
 
+**Hypotheses 2:** Predicted weight loss over a fixed duration is influenced by variations in calorie intake, workout days, and sleep duration. Individuals with greater consistency in calorie intake and workout days experience faster and more sustained weight loss. Conversely, shorter sleep durations reduce weight loss by lowering resting metabolic rate (RMR), compounding the effects of inconsistent calorie intake and workout adherence.
+
 ## Fixed Variables (Input from the user):
 1. Initial Weight (lbs): Initial body weight of an individual
 2. Age, Gender, Height: These variables influence the basal metabolic rate (RMR).
@@ -22,19 +24,7 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 ## Random Variables:
 1. Number of workout days in a week (days): Total number of workout days in a week.
 2. Daily Activity Level (kcal/day): The number of calories a person burn per day from daily non-exercise activities.
-
-**Hypotheses 2:** Predicted weight loss over a fixed duration (e.g., 12 weeks) is influenced by variations in body fat percentage and sleep duration. Individuals with higher body fat percentages lose more weight initially due to higher fat stores but experience slower sustained weight loss due to reduced lean mass and metabolic efficiency. Shorter sleep durations further reduce weight loss by lowering resting metabolic rate (RMR).
-
-## Fixed Variables (Input from the user):
-1. Initial Weight (lbs): Initial body weight of an individual
-2. Age, Gender, Height: These variables influence the basal metabolic rate (RMR).
-3. Workout Duration (hours): Number of hours a person does the workout in a day.
-4. Calorie Intake (kcal): The number of calories that a person is consuming.
-5. Activity Type and Activity Intensity (MET value): These are based on a numerical number called MET value which is different for each activity type and the intensity.
-6. Daily Activity Level (kcal): The number of calories a person burn per day from daily non-exercise activities.
-
-## Random Variables:
-1. Calorie Intake (kcal): The number of calories that a person is consuming everyday.
+3. Calorie Intake (kcal): The number of calories that a person is consuming everyday.
 2. Sleep Duration (hours): The number of hours the person is sleeping everyday.
 
 ## Other Derived Variables:
