@@ -18,14 +18,13 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 1. Initial Weight (lbs): Initial body weight of an individual
 2. Age, Gender, Height: These variables influence the basal metabolic rate (RMR).
 3. Workout Duration (hours): Number of hours a person does the workout in a day.
-4. Calorie Intake (kcal): The number of calories that a person is consuming.
-5. Activity Type and Activity Intensity (MET value): These are based on a numerical number called MET value which is different for each activity type and the intensity.
+4. Activity Type and Activity Intensity (MET value): These are based on a numerical number called MET value which is different for each activity type and the intensity.
 
 ## Random Variables:
 1. Number of workout days in a week (days): Total number of workout days in a week.
 2. Daily Activity Level (kcal/day): The number of calories a person burn per day from daily non-exercise activities.
 3. Calorie Intake (kcal): The number of calories that a person is consuming everyday.
-2. Sleep Duration (hours): The number of hours the person is sleeping everyday.
+4. Sleep Duration (hours): The number of hours the person is sleeping everyday.
 
 ## Other Derived Variables:
 1. Resting Metabolic Rate (RMR): Calculated based on Age, Gender, Height, Initial Weight and sleep adjustment factor (in 2nd hypothese)
