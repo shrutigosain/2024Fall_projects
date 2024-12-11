@@ -14,7 +14,7 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 
 **Hypotheses 2:** Predicted weight loss over a fixed duration is influenced by calorie intake, sleep duration, number of workout days per week, and additional calories burned through daily activity. Increased variability in these factors leads to wider range in weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
 
-**Hypotheses 3:** Predicted weight loss over a fixed duration differs among individuals with identical user details but varying initial weight offsets (+40 lbs, 0 lbs, and -40 lbs). Individuals with a positive weight offset (+40 lbs) are expected to lose more weight compared to those with a negative weight offset (-40 lbs), using the individual with 0 lbs offset as the reference point.
+**Hypotheses 3:** Predicted weight loss over a fixed duration differs among individuals with identical user details but varying initial weight offsets (+40 lbs, 0 lbs, and -40 lbs). Individuals with a positive weight offset (+40 lbs) are expected to have a flatter slope of weight loss compared to those with a negative weight offset (-40 lbs), using the individual with 0 lbs offset as the reference point.
 
 ## Fixed Variables (Input from the user):
 1. Initial Weight (lbs): Initial body weight of an individual
