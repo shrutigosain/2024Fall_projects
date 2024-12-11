@@ -71,11 +71,11 @@ The simulation partially supports our hypotheses as it confirms that weight loss
 <img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
 
 **Hypotheses 2:**
-The Monte Carlo simulation graph for Hypothesis 2 reveals a general downward trend in weight trajectories over time, with tighter clustering of some paths, indicating more consistent weight loss patterns for scenarios with stable energy balance factors. 
+The Monte Carlo simulation graph for Hypothesis 2 reveals a stronger co-relation between the random variables. 
 
-Conversely, greater variability in the factors like workout days, sleep duration or calorie intake shows a wider spread of weight loss trajectories. These randomization cause slower and less predictable progress, as seen in the dispersion of lines in the graph. This variability also aligns with the hypothesis that inconsistency in key factors disrupts energy balance and impacts metabolic efficiency, leading to a less reliable weight loss outcome.
+Greater variability in the factors like workout days, sleep duration or calorie intake shows a wider spread of weight loss trajectories. These randomization cause slower and less predictable progress, as seen in the dispersion of lines in the graph. This variability also aligns with the hypothesis that inconsistency in key factors disrupts energy balance and impacts metabolic efficiency, leading to a less reliable weight loss outcome.
 
-Overall, the simulation supports our hypothesis by demonstrating that consistency leads to predictable and efficient weight loss, while variability introduces uncertainty and slower progress.
+Overall, the simulation supports our hypothesis while variability introduces uncertainty and slower progress.
 
 **Monte Carlo Simulation Graph for Hypotheses 2**
 <img width="1074" alt="Hypotheses 2" src="https://github.com/user-attachments/assets/111378a4-d0f3-481f-8982-0e4a569ac68b">
