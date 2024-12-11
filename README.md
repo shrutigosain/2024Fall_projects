@@ -83,7 +83,5 @@ Overall, the simulation supports our hypothesis while variability introduces unc
 **Hypotheses 3:**
 The Monte Carlo Simulation supports our hypotheses and the graph clearly shows that an individual's starting weight significantly impacts the predictability of weight loss. People with higher initial weights tend to lose weight faster and more consistently because of higher energy expenditure and a greater resting metabolic rate (RMR). In contrast, individuals with lower initial weights experience slower and more gradual weight loss, with greater variability in their outcomes.
 
-Overall, the results confirm that while factors such as consistent calorie intake, sleep, and workout days play a role but initial weight is the primary determinant of the predictability of weight loss. The graph provides clear evidence that heavier individuals experience a more pronounced and predictable decreasing trend in weight loss over time.
-
 **Monte Carlo Simulation Graph for Hypotheses 3**
 <img width="1048" alt="Hypotheses 3" src="https://github.com/user-attachments/assets/4c16582b-ff87-415c-bc3a-3008af13a1cd">
