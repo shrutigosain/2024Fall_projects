@@ -63,9 +63,9 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 ## Conclusion
 
 **Hypotheses 1:**
-The Monte Carlo Simulation graph shows the effective realtionship between the additional calories burned from non-exercise activites, number of workout days and predicted weight loss over a fixed duration.
+The Monte Carlo Simulation graph shows the effective realtionship between the additional calories burnt from non-exercise activites, number of workout days and predicted weight loss over a fixed duration.
 
-The simulation partially supports our hypotheses as it confirms that as the number of workout days in a week and additional calories burned increases, there is greater weight loss considering that the calorie intake is ideal for that weight. The wide range of trajectories depicts the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Calorie intake plays a very significant role in determining the weight loss. Keeping it constant does not give a bigger picture of the ideal scenario.
+The simulation partially supports our hypotheses as it confirms that weight loss increases with an increase in the number of workout days and additional calories burnt, considering that the calorie intake is ideal for the given weight. The wide range of trajectories depict the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Calorie intake plays a very significant role in determining the weight loss of a person. Keeping it constant does not make sense in an ideal scenario.
 
 **Monte Carlo Simulation Graph for Hypotheses 1**
 <img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
