@@ -10,9 +10,11 @@ Ishan Joshi (ishan2505), Shruti Gosain (shrutigosain), Nishtha Joshi (nj10-15)
 Weight loss is a common goal for many individuals, yet achieving it effectively remains a challenge due to individual variability in responses to sleep and exercise. Traditional fitness plans often assume a one-routine-fits-all approach, leading to inconsistent results. This project aims to design a Monte Carlo simulation model that incorporates key factors like workout type, intensity, duration, metabolic rate, sleep duration and caloric intake to predict weight loss outcomes. 
 
 ## Hypothese and the Varibles Used:
-**Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase. However, individuals with higher initial weight experience greater variability in weight loss due to differences in calorie deficits influenced by resting metabolic rate (RMR) and workout intensity.
+**Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase.
 
-**Hypotheses 2:** Predicted weight loss over a fixed duration is significantly influenced by variations in calorie intake, sleep duration, workout days, and additional calories burned from non-workout activities. Individuals with consistent calorie intake, adequate sleep duration (≥8 hours), and regular workout days experience faster and more predictable weight loss, while those with greater variability in these factors demonstrate slower and less consistent weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
+**Hypotheses 2:** Consistent calorie intake, adequate sleep duration and regular workout days experience faster and more predictable weight loss, while greater variability in these factors demonstrate slower and less consistent weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
+
+**Hypotheses 3:** Individuals with consistent calorie intake, adequate sleep duration (≥8 hours), and regular workout days experience faster and more predictable weight loss, while those with greater variability in these factors demonstrate slower and less consistent weight loss trajectories.
 
 ## Fixed Variables (Input from the user):
 1. Initial Weight (lbs): Initial body weight of an individual
@@ -51,3 +53,19 @@ Reference: https://pacompendium.com/adult-compendium/ - For getting the MET valu
 4. Total Calories Burned (kcal): Workout Calories + RMR + Additional Calories Burned
 
 5. Calories Deficit (kcal) = Total Calories Burned - Calorie Intake (kcal)
+
+## Conclusion
+
+**Hypotheses 1**
+The Monte Carlo Simulation graph shows the effective realtionship between the additional calories burned from non-exercise activites, number of workout days and predicted weight loss over a fixed duration. The graph shows a decreasing trend in weight reflecting the consistent weight loss over time.
+
+The simulation supports our Hypotheses as it confirms that as the number of workout days in a week and additional calories burned increases, there is greater weight loss. The wide range of trajectories depicts the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Despite the varibality, the downward pattern confirms that high levels of workout days and additional calories burned contribute significantly to higher weight loss outcomes.
+
+**Monte Carlo Simulation Graph for Hypotheses 1**
+<img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
+
+**Hypotheses 2**
+
+
+**Hypotheses 3**
+
