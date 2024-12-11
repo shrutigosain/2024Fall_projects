@@ -14,7 +14,7 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 
 **Hypotheses 2:** Consistent calorie intake, adequate sleep duration and regular workout days experience faster and more predictable weight loss, while greater variability in these factors demonstrate slower and less consistent weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
 
-**Hypotheses 3:** Individuals with consistent calorie intake, adequate sleep duration (≥8 hours), and regular workout days experience faster and more predictable weight loss, while those with greater variability in these factors demonstrate slower and less consistent weight loss trajectories.
+**Hypotheses 3:** The predictability of weight loss depend significantly on an individual's initial weight. Individuals with higher initial weights get faster and more predictable weight loss due to greater energy expenditure and a higher resting metabolic rate (RMR), while individuals with lower initial weights get slower and more gradual weight loss trajectories. Variability in calorie intake, sleep duration, and number of workout days influences the spread of outcomes but is secondary to initial weight.
 
 ## Fixed Variables (Input from the user):
 1. Initial Weight (lbs): Initial body weight of an individual
@@ -37,35 +37,53 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 
 ## Formulae used:
 1. Resting Metabolic Rate (RMR): The Mifflin-St Jeor equation is widely recognized for estimating RMR:
-   Men: RMR (kcal/day) = 10 × 0.453592 x weight (lbs) + 6.25 x 2.54 × height (inch) - 5 × age (years) + 5
-   Women: RMR (kcal/day) = 10 × 0.453592 x weight (lbs) + 6.25 × 2.54 × height (inch) - 5 × age (years) - 161
 
-Reference:
-a. https://en.wikipedia.org/wiki/Basal_metabolic_rate - For getting the formula for RMR/BMR using the The Mifflin St Jeor equation from this link.
-b. https://www.bannerhealth.com/staying-well/health-and-wellness/fitness-nutrition/ideal-weight - For setting the range for age and height.
-c. https://www.researchgate.net/publication/6498022_Impact_of_Sleep_and_Sleep_Loss_on_Neuroendocrine_and_Metabolic_Function - Reduced RMR by approximately 5% for every hour below the recommended 7-8 hours of sleep.
+      Men: RMR (kcal/day) = 10 × 0.453592 x weight (lbs) + 6.25 x 2.54 × height (inch) - 5 × age (years) + 5
+
+      Women: RMR (kcal/day) = 10 × 0.453592 x weight (lbs) + 6.25 × 2.54 × height (inch) - 5 × age (years) - 161
+
+      Reference:
+
+      a. https://en.wikipedia.org/wiki/Basal_metabolic_rate - Took the formula for RMR/BMR using the The Mifflin St Jeor equation from this link.
+
+      b. https://www.bannerhealth.com/staying-well/health-and-wellness/fitness-nutrition/ideal-weight - Took the range for setting the age and height inputs
+
+      c. https://www.researchgate.net/publication/6498022_Impact_of_Sleep_and_Sleep_Loss_on_Neuroendocrine_and_Metabolic_Function - Took the formula for adjusted RMR when sleep factor is introduced. There is a reduced RMR by approximately 5% for every hour below the recommended 7-8 hours of sleep.
 
 2. Workout Calories (kcal): This is calculated using MET values(varying according to activity type and intensity), initial weight and workout duration (fixed)
 
-3. Workout Calories (kcal): MET value × initial weight (lbs) × workout duration (hours)
-Reference: https://pacompendium.com/adult-compendium/ - For getting the MET values based on activity type and intensity
+   Workout Calories (kcal): MET value × initial weight (lbs) × workout duration (hours)
 
-4. Total Calories Burned (kcal): Workout Calories + RMR + Additional Calories Burned
+   Reference: https://pacompendium.com/adult-compendium/ - For getting the MET values based on activity type and intensity
 
-5. Calories Deficit (kcal) = Total Calories Burned - Calorie Intake (kcal)
+3. Total Calories Burned (kcal): Workout Calories + RMR + Additional Calories Burned
+
+4. Calories Deficit (kcal): Total Calories Burned - Calorie Intake (kcal)
 
 ## Conclusion
 
-**Hypotheses 1**
+**Hypotheses 1:**
 The Monte Carlo Simulation graph shows the effective realtionship between the additional calories burned from non-exercise activites, number of workout days and predicted weight loss over a fixed duration. The graph shows a decreasing trend in weight reflecting the consistent weight loss over time.
 
-The simulation supports our Hypotheses as it confirms that as the number of workout days in a week and additional calories burned increases, there is greater weight loss. The wide range of trajectories depicts the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Despite the varibality, the downward pattern confirms that high levels of workout days and additional calories burned contribute significantly to higher weight loss outcomes.
+The simulation supports our hypotheses as it confirms that as the number of workout days in a week and additional calories burned increases, there is greater weight loss. The wide range of trajectories depicts the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Despite the varibality, the downward pattern confirms that high levels of workout days and additional calories burned contribute significantly to higher weight loss outcomes.
 
 **Monte Carlo Simulation Graph for Hypotheses 1**
 <img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
 
-**Hypotheses 2**
+**Hypotheses 2:**
+The Monte Carlo simulation graph for Hypothesis 2 reveals a general downward trend in weight trajectories over time, with tighter clustering of some paths, indicating more consistent weight loss patterns for scenarios with stable energy balance factors. 
 
+Conversely, greater variability in the factors like workout days, sleep duration or calorie intake shows a wider spread of weight loss trajectories. These randomization cause slower and less predictable progress, as seen in the dispersion of lines in the graph. This variability also aligns with the hypothesis that inconsistency in key factors disrupts energy balance and impacts metabolic efficiency, leading to a less reliable weight loss outcome.
 
-**Hypotheses 3**
+Overall, the simulation supports our hypothesis by demonstrating that consistency leads to predictable and efficient weight loss, while variability introduces uncertainty and slower progress.
 
+**Monte Carlo Simulation Graph for Hypotheses 2**
+<img width="1074" alt="Hypotheses 2" src="https://github.com/user-attachments/assets/111378a4-d0f3-481f-8982-0e4a569ac68b">
+
+**Hypotheses 3:**
+The Monte Carlo Simulation supports our hypotheses and the graph clearly shows that an individual's starting weight significantly impacts the predictability of weight loss. People with higher initial weights tend to lose weight faster and more consistently because of higher energy expenditure and a greater resting metabolic rate (RMR). In contrast, individuals with lower initial weights experience slower and more gradual weight loss, with greater variability in their outcomes.
+
+Overall, the results confirm that while factors such as consistent calorie intake, sleep, and workout days play a role but initial weight is the primary determinant of the predictability of weight loss. The graph provides clear evidence that heavier individuals experience a more pronounced and predictable decreasing trend in weight loss over time.
+
+**Monte Carlo Simulation Graph for Hypotheses 3**
+<img width="1048" alt="Hypotheses 3" src="https://github.com/user-attachments/assets/4c16582b-ff87-415c-bc3a-3008af13a1cd">
