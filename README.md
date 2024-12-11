@@ -12,7 +12,7 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 ## Hypothese and the Varibles Used:
 **Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase.
 
-**Hypotheses 2:** Consistent calorie intake, adequate sleep duration and regular workout days experience faster and more predictable weight loss, while greater variability in these factors demonstrate slower and less consistent weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
+**Hypotheses 2:** Predicted weight loss over a fixed duration is influenced by calorie intake, sleep duration, number of workout days per week, and additional calories burned through daily activity. Increased variability in these factors leads to wider range in weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
 
 **Hypotheses 3:** The predictability of weight loss depend significantly on an individual's initial weight. Individuals with higher initial weights get faster and more predictable weight loss due to greater energy expenditure and a higher resting metabolic rate (RMR), while individuals with lower initial weights get slower and more gradual weight loss trajectories. Variability in calorie intake, sleep duration, and number of workout days influences the spread of outcomes but is secondary to initial weight.
 
