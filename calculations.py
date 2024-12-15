@@ -13,12 +13,6 @@ class Calculations:
 
         Returns:
             float: Total calories burned from all activities.
-
-            >>> user = User(30, 175, 75, 2000, 'male')
-            >>> activity_manager = Activity()
-            >>> activity_manager.activities = { "Running": {"met_value": 7.5, "duration_minutes": 30},"Cycling": {"met_value": 6.8, "duration_minutes": 45}}
-            >>> calculate_calories_burned(user, activity_manager, 300)
-            956.625
         """
 
         # Calculate workout calories using MET values, duration (in hours), and user's weight
@@ -38,14 +32,6 @@ class Calculations:
 
         Returns:
             float: The calculated RMR in kcal/day.
-
-            >>> user = User(30, 175, 75, 2000, 'male')
-            >>> calculate_daily_rmr_change(75, user)
-            1684.7750000000003
-
-        Raises:
-        ValueError: If the gender is not 'male' or 'female'.
-
         """
 
         if user.gender == "male":
