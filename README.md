@@ -124,7 +124,11 @@ The Monte Carlo Simulation graph shows the effective realtionship between the ad
 The simulation partially supports our hypotheses as it confirms that weight loss increases with an increase in the number of workout days and additional calories burnt, considering that the calorie intake is ideal for the given weight. The wide range of trajectories depict the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Calorie intake plays a very significant role in determining the weight loss of a person. Keeping it constant does not make sense in an ideal scenario.
 
 **Monte Carlo Simulation Graph for Hypotheses 1**
+With Calorie Intake - 3000/day
 <img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
+
+With Calorie Intake - 3500/day
+<img width="1027" alt="image" src="https://github.com/user-attachments/assets/2546c471-9451-412d-af23-1c865cd1ad42" />
 
 **Hypotheses 2:**
 The Monte Carlo simulation graph for Hypothesis 2 reveals a stronger co-relation between the random variables. 
