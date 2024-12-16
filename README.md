@@ -161,4 +161,4 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 
 - While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
 
-- The simulations currently focus on shorter durations (weeks), which may not capture long-term weight loss trends, plateaus, or rebound effects.
+- The simulations currently focus on shorter durations (weeks), which may not capture long-term weight loss trends or rebound effects.
