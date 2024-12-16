@@ -38,15 +38,24 @@ The relationship between these inputs and the output (weight change):​
 We validated one scenario with user inputs to check the trajectory of the graph. ​
 
 Summary of Activities:
-Activity                                                                             |    MET Value | Duration (hours) | Duration (minutes)
-Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance     |    3.5       |          2       |           0
-Jog/walk combination (jogging component of less than 10 minutes) (Taylor Code 180)   |    6.0       |          0       |           5
+Activity - Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance
+      MET Value - 3.5
+      Duration (hours) -  2 
+      Duration (minutes) -  0
+
+Activity - Jog/walk combination (jogging component of less than 10 minutes) 
+      MET Value -  6.0
+      Duration (hours) - 0
+      Duration (minutes) - 5
 
 Total duration of all activities: 2 hours and 5 minutes.
 
 User Details:
-Age (years)  Height (inch)  Weight (lbs) Calorie Intake Gender
-26             77           190          3000            male
+Age (years) - 26 
+Height (inch) - 77 Weight (lbs) Calorie Intake Gender
+Weight (lbs) - 190
+Calorie Intake - 3000
+Gender - male
 
 ​<img width="1038" alt="image" src="https://github.com/user-attachments/assets/dd426c71-f274-4890-8a4c-67e7c0059a47" />
 For each simulation run, a new set of random values is generated for the random variables.​
@@ -128,7 +137,7 @@ The simulation partially supports our hypotheses as it confirms that weight loss
 
 **Monte Carlo Simulation Graph for Hypotheses 1**
 With Calorie Intake - 3000/day
-<img width="1121" alt="Hypotheses 1" src="https://github.com/user-attachments/assets/04c2f419-1ab7-4e1f-9937-14bb0cf6f546">
+<img width="1016" alt="image" src="https://github.com/user-attachments/assets/000d9b0c-6d10-41f6-b51a-6edc48a812a6" />
 
 With Calorie Intake - 3500/day
 <img width="1027" alt="image" src="https://github.com/user-attachments/assets/2546c471-9451-412d-af23-1c865cd1ad42" />
@@ -141,20 +150,14 @@ Greater variability in the factors like workout days, sleep duration or calorie 
 Overall, the simulation supports our hypothesis while variability introduces uncertainty and slower progress.
 
 **Monte Carlo Simulation Graph for Hypotheses 2**
-<img width="1074" alt="Hypotheses 2" src="https://github.com/user-attachments/assets/111378a4-d0f3-481f-8982-0e4a569ac68b">
+<img width="1033" alt="image" src="https://github.com/user-attachments/assets/88295d47-d8c8-4d1a-bc3e-67567dfb419e" />
+
 
 **Hypotheses 3:**
 The Monte Carlo Simulation supports our hypotheses and the graph clearly shows that an individual's starting weight significantly impacts the predictability of weight loss. People with higher initial weights tend to lose weight faster and more consistently because of higher energy expenditure and a greater resting metabolic rate (RMR). In contrast, individuals with lower initial weights experience slower and more gradual weight loss, with greater variability in their outcomes.
 
 **Monte Carlo Simulation Graph for Hypotheses 3**
-<img width="1048" alt="Hypotheses 3" src="https://github.com/user-attachments/assets/4c16582b-ff87-415c-bc3a-3008af13a1cd">
-
-**Future Scope**
-- Expanding the model to include additional factors like stress levels, hormonal changes, and hydration could provide a more comprehensive understanding of weight loss outcomes.
-
-- Introducing specific dietary plans (e.g., high-protein, ketogenic, or intermittent fasting) as input variables could allow users to compare their effectiveness alongside exercise and sleep.
-
-- Extending simulations to model weight loss outcomes over longer durations (e.g., months or years) while accounting for plateaus and metabolic adaptation.
+<img width="1005" alt="image" src="https://github.com/user-attachments/assets/3f7c5af6-fe1a-451c-b81f-7baa87892c22" />
 
 **Limitations**
 
@@ -167,4 +170,11 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 - Only MET-based activities are included, and specific variations in intensity or combined workouts (e.g., HIIT, swimming, dancing) are not explicitly included.
 
 - While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
+
+**Future Scope**
+- Expanding the model to include additional factors like stress levels, hormonal changes, and hydration could provide a more comprehensive understanding of weight loss outcomes.
+
+- Introducing specific dietary plans (e.g., high-protein, ketogenic, or intermittent fasting) as input variables could allow users to compare their effectiveness alongside exercise and sleep.
+
+- Extending simulations to model weight loss outcomes over longer durations (e.g., months or years) while accounting for plateaus and metabolic adaptation.
 
