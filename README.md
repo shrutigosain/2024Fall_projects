@@ -12,6 +12,7 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 ## 3 Stages of Monte Carlo Simulation:
 
 **Stage 1 - Design**
+
 Variables that affect the system and their distribution:​
 
 Input Variables:​
@@ -33,9 +34,10 @@ The relationship between these inputs and the output (weight change):​
 **Stage 2 - Validation**
 
 We validated one scenario with user inputs to check the trajectory of the graph. ​
- Summary of Activities:
- Activity                                                                                 MET Value  Duration (hours)  Duration (minutes)
-Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance        3.5                 2                   0
+
+Summary of Activities:
+Activity                                                                                  MET Value  Duration (hours)  Duration (minutes)
+Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance          3.5                 2                   0
 Jog/walk combination (jogging component of less than 10 minutes) (Taylor Code 180)        6.0                 0                   5
 Total duration of all activities: 2 hours and 5 minutes.
 
