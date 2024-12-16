@@ -21,15 +21,15 @@ Input Variables:​
 - Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
 
 Defined Distributions for Random Variables:​
-      - Workout Days per Week: Uniform distribution between 2 and 7.​
-      - Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
-      - Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
-      - Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
+- Workout Days per Week: Uniform distribution between 2 and 7.​
+- Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
+- Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
+- Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
 
 The relationship between these inputs and the output (weight change):​
-      - Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
-      - Calories Burned from Activities: Using MET values and activity durations.​
-      - Weight Change: Derived from calorie deficits or surpluses.​
+- Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
+- Calories Burned from Activities: Using MET values and activity durations.​
+- Weight Change: Derived from calorie deficits or surpluses.​
 
 **Stage 2 - Validation**
 
