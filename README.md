@@ -9,6 +9,48 @@ Ishan Joshi (ishan2505), Shruti Gosain (shrutigosain), Nishtha Joshi (nj10-15)
 ## Objective:
 Weight loss is a common goal for many individuals, yet achieving it effectively remains a challenge due to individual variability in responses to sleep and exercise. Traditional fitness plans often assume a one-routine-fits-all approach, leading to inconsistent results. This project aims to design a Monte Carlo simulation model that incorporates key factors like workout type, intensity, duration, metabolic rate, sleep duration and caloric intake to predict weight loss outcomes. 
 
+## 3 Stages of Monte Carlo Simulation:
+**Stage 1 - Design**
+Variables that affect the system and their distribution:​
+Input Variables:​
+      User Attributes: age, height, weight, calorie intake, gender.​
+      Activity MET Values and Duration​
+      Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
+Defined Distributions for Random Variables:​
+      Workout Days per Week: Uniform distribution between 2 and 7.​
+      Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
+      Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
+      Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
+The relationship between these inputs and the output (weight change):​
+      Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
+      Calories Burned from Activities: Using MET values and activity durations.​
+      Weight Change: Derived from calorie deficits or surpluses.​
+
+**Stage 2 - Validation**
+We validated one scenario with user inputs to check the trajectory of the graph. ​
+ Summary of Activities:
+ Activity                                                                                 MET Value  Duration (hours)  Duration (minutes)
+Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance        3.5                 2                   0
+Jog/walk combination (jogging component of less than 10 minutes) (Taylor Code 180)        6.0                 0                   5
+Total duration of all activities: 2 hours and 5 minutes.
+
+User Details:
+Age (years)  Height (inch)  Weight (lbs) Calorie Intake Gender
+26             77           190          3000            male
+
+​<img width="1038" alt="image" src="https://github.com/user-attachments/assets/dd426c71-f274-4890-8a4c-67e7c0059a47" />
+For each simulation run, a new set of random values is generated for the random variables.​
+The random sampling is repeated for the number of simulations, with each simulation spanning weeks (7 days).​
+
+**Stage 3 - Experiment and Predictions**​
+
+Ran the simulation for many iterations.​
+Introduced more random variables to experiment the simulation.​
+Made variations to the fixed variables from the initial hypothesis.​
+Compared the initial hypothesis with the newer ones and made conclusions​
+
+<img width="1053" alt="image" src="https://github.com/user-attachments/assets/9c06e959-7ead-4f7f-9bb3-d398dcd65e12" />
+
 ## Hypothese and the Varibles Used:
 **Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase.
 
