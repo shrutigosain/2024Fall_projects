@@ -38,24 +38,24 @@ The relationship between these inputs and the output (weight change):​
 We validated one scenario with user inputs to check the trajectory of the graph. ​
 
 Summary of Activities:
-Activity - Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance
-      MET Value - 3.5
-      Duration (hours) -  2 
-      Duration (minutes) -  0
+- Activity - Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance
+        - MET Value : 3.5
+        - Duration (hours) : 2 
+        - Duration (minutes) : 0
 
-Activity - Jog/walk combination (jogging component of less than 10 minutes) 
-      MET Value -  6.0
-      Duration (hours) - 0
-      Duration (minutes) - 5
+- Activity - Jog/walk combination (jogging component of less than 10 minutes) 
+        - MET Value : 6.0
+        - Duration (hours) : 0
+        - Duration (minutes) : 5
 
 Total duration of all activities: 2 hours and 5 minutes.
 
 User Details:
-Age (years) - 26 
-Height (inch) - 77 Weight (lbs) Calorie Intake Gender
-Weight (lbs) - 190
-Calorie Intake - 3000
-Gender - male
+      - Age (years) : 26 
+      - Height (inch) : 77 Weight (lbs) Calorie Intake Gender
+      - Weight (lbs) : 190
+      - Calorie Intake : 3000
+      - Gender : male
 
 ​<img width="1038" alt="image" src="https://github.com/user-attachments/assets/dd426c71-f274-4890-8a4c-67e7c0059a47" />
 For each simulation run, a new set of random values is generated for the random variables.​
