@@ -157,8 +157,7 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 
 - The model does not account for individual physiological differences such as genetics, metabolic disorders, or varying responses to workouts and diets.
 
-- Only MET-based activities are included, and specific variations in intensity or combined workouts (e.g., HIIT) are not explicitly modeled.
+- Only MET-based activities are included, and specific variations in intensity or combined workouts (e.g., HIIT, swimming, dancing) are not explicitly included.
 
 - While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
 
-- The simulations currently focus on shorter durations (weeks), which may not capture long-term weight loss trends or rebound effects.
