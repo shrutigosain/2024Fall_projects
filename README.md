@@ -10,23 +10,28 @@ Ishan Joshi (ishan2505), Shruti Gosain (shrutigosain), Nishtha Joshi (nj10-15)
 Weight loss is a common goal for many individuals, yet achieving it effectively remains a challenge due to individual variability in responses to sleep and exercise. Traditional fitness plans often assume a one-routine-fits-all approach, leading to inconsistent results. This project aims to design a Monte Carlo simulation model that incorporates key factors like workout type, intensity, duration, metabolic rate, sleep duration and caloric intake to predict weight loss outcomes. 
 
 ## 3 Stages of Monte Carlo Simulation:
+
 **Stage 1 - Design**
 Variables that affect the system and their distribution:​
+
 Input Variables:​
       User Attributes: age, height, weight, calorie intake, gender.​
       Activity MET Values and Duration​
       Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
+
 Defined Distributions for Random Variables:​
       Workout Days per Week: Uniform distribution between 2 and 7.​
       Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
       Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
       Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
+
 The relationship between these inputs and the output (weight change):​
       Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
       Calories Burned from Activities: Using MET values and activity durations.​
       Weight Change: Derived from calorie deficits or surpluses.​
 
 **Stage 2 - Validation**
+
 We validated one scenario with user inputs to check the trajectory of the graph. ​
  Summary of Activities:
  Activity                                                                                 MET Value  Duration (hours)  Duration (minutes)
