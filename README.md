@@ -80,6 +80,7 @@ The random sampling is repeated for the number of simulations, with each simulat
 
 
 ## Hypothese and the Varibles Used:
+
 **Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase.
 
 **Hypotheses 2:** Predicted weight loss over a fixed duration is influenced by calorie intake, sleep duration, number of workout days per week, and additional calories burned through daily activity. Increased variability in these factors leads to wider range in weight loss trajectories due to fluctuations in energy balance and resting metabolic rate (RMR).
@@ -87,18 +88,21 @@ The random sampling is repeated for the number of simulations, with each simulat
 **Hypotheses 3:** Predicted weight loss over a fixed duration differs among individuals with identical user details but varying initial weight offsets (+40 lbs, 0 lbs, and -40 lbs). Individuals with a positive weight offset (+40 lbs) are expected to have a flatter slope of weight loss compared to those with a negative weight offset (-40 lbs), using the individual with 0 lbs offset as the reference point.
 
 ## Fixed Variables (Input from the user):
+
 1. Initial Weight (lbs): Initial body weight of an individual
 2. Age, Gender, Height: These variables influence the basal metabolic rate (RMR).
 3. Workout Duration (hours): Number of hours a person does the workout in a day.
 4. Activity Type and Activity Intensity (MET value): These are based on a numerical number called MET value which is different for each activity type and the intensity.
 
 ## Random Variables:
+
 1. Number of workout days in a week (days): Total number of workout days in a week.
 2. Additional Calories Burned (kcal/day): The number of additional calories burned per day from daily non-exercise activities.
 3. Calorie Intake (kcal): The number of calories that a person is consuming everyday.
 4. Sleep Duration (hours): The number of hours the person is sleeping everyday.
 
 ## Other Derived Variables:
+
 1. Resting Metabolic Rate (RMR): Calculated based on Age, Gender, Height, Initial Weight and sleep adjustment factor (in 2nd hypothese)
 2. Workout calories (kcal): Calculated based on MET value, workout duration and initial weight.
 3. Total Calories Burned (kcal): Calculated based on the sum of Workout Calories, Additional Calories Burned and RMR.
@@ -106,6 +110,7 @@ The random sampling is repeated for the number of simulations, with each simulat
 5. Predicted Weight Loss(lbs): Calculated by converting the calories into weight factor.
 
 ## Formulae used:
+
 1. Resting Metabolic Rate (RMR): The Mifflin-St Jeor equation is widely recognized for estimating RMR:
 
       Men: RMR (kcal/day) = 10 × 0.453592 x weight (lbs) + 6.25 x 2.54 × height (inch) - 5 × age (years) + 5
@@ -133,11 +138,13 @@ The random sampling is repeated for the number of simulations, with each simulat
 ## Conclusion
 
 **Hypotheses 1:**
+
 The Monte Carlo Simulation graph shows the effective realtionship between the additional calories burnt from non-exercise activites, number of workout days and predicted weight loss over a fixed duration.
 
 The simulation partially supports our hypotheses as it confirms that weight loss increases with an increase in the number of workout days and additional calories burnt, considering that the calorie intake is ideal for the given weight. The wide range of trajectories depict the variability due to different RMR, routine and initial conditions (like initial weight, calorie intake etc.). Calorie intake plays a very significant role in determining the weight loss of a person. Keeping it constant does not make sense in an ideal scenario.
 
 **Monte Carlo Simulation Graph for Hypotheses 1**
+
 With Calorie Intake - 3000/day
 <img width="1016" alt="image" src="https://github.com/user-attachments/assets/000d9b0c-6d10-41f6-b51a-6edc48a812a6" />
 
@@ -145,6 +152,7 @@ With Calorie Intake - 3500/day
 <img width="1027" alt="image" src="https://github.com/user-attachments/assets/2546c471-9451-412d-af23-1c865cd1ad42" />
 
 **Hypotheses 2:**
+
 The Monte Carlo simulation graph for Hypothesis 2 reveals a stronger co-relation between the random variables. 
 
 Greater variability in the factors like workout days, sleep duration or calorie intake shows a wider spread of weight loss trajectories. These randomization cause slower and less predictable progress, as seen in the dispersion of lines in the graph. This variability also aligns with the hypothesis that inconsistency in key factors disrupts energy balance and impacts metabolic efficiency, leading to a less reliable weight loss outcome.
@@ -152,13 +160,16 @@ Greater variability in the factors like workout days, sleep duration or calorie 
 Overall, the simulation supports our hypothesis while variability introduces uncertainty and slower progress.
 
 **Monte Carlo Simulation Graph for Hypotheses 2**
+
 <img width="1033" alt="image" src="https://github.com/user-attachments/assets/88295d47-d8c8-4d1a-bc3e-67567dfb419e" />
 
 
 **Hypotheses 3:**
+
 The Monte Carlo Simulation supports our hypotheses and the graph clearly shows that an individual's starting weight significantly impacts the predictability of weight loss. People with higher initial weights tend to lose weight faster and more consistently because of higher energy expenditure and a greater resting metabolic rate (RMR). In contrast, individuals with lower initial weights experience slower and more gradual weight loss, with greater variability in their outcomes.
 
 **Monte Carlo Simulation Graph for Hypotheses 3**
+
 <img width="1005" alt="image" src="https://github.com/user-attachments/assets/3f7c5af6-fe1a-451c-b81f-7baa87892c22" />
 
 **Limitations**
@@ -174,6 +185,7 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 - While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
 
 **Future Scope**
+
 - Expanding the model to include additional factors like stress levels, hormonal changes, and hydration could provide a more comprehensive understanding of weight loss outcomes.
 
 - Introducing specific dietary plans (e.g., high-protein, ketogenic, or intermittent fasting) as input variables could allow users to compare their effectiveness alongside exercise and sleep.
