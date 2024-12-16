@@ -150,20 +150,15 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 - Extending simulations to model weight loss outcomes over longer durations (e.g., months or years) while accounting for plateaus and metabolic adaptation.
 
 **Limitations**
-Simplified Assumptions:
-The model assumes that calorie deficits directly translate to weight loss, ignoring factors like muscle gain, hormonal imbalances, or water retention, which can impact actual outcomes.
 
-Static Inputs:
-Variables like calorie intake, workout duration, and sleep duration are randomized but remain constant for the simulation period, which may not fully reflect real-life fluctuations.
+- The model assumes that calorie deficits directly translate to weight loss, ignoring factors like muscle gain, hormonal imbalances, or water retention, which can impact actual outcomes.
 
-Lack of User-Specific Variability:
-The model does not account for individual physiological differences such as genetics, metabolic disorders, or varying responses to workouts and diets.
+- Variables like calorie intake, workout duration, and sleep duration are randomized but remain constant for the simulation period, which may not fully reflect real-life fluctuations.
 
-Limited Scope of Activities:
-Only MET-based activities are included, and specific variations in intensity or combined workouts (e.g., HIIT) are not explicitly modeled.
+- The model does not account for individual physiological differences such as genetics, metabolic disorders, or varying responses to workouts and diets.
 
-Sleep Adjustment Factor:
-While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
+- Only MET-based activities are included, and specific variations in intensity or combined workouts (e.g., HIIT) are not explicitly modeled.
 
-Short-Term Simulations:
-The simulations currently focus on shorter durations (weeks), which may not capture long-term weight loss trends, plateaus, or rebound effects.
+- While RMR adjustments for sleep variability are incorporated, other metabolic impacts of poor sleep (e.g., changes in appetite-regulating hormones) are not considered.
+
+- The simulations currently focus on shorter durations (weeks), which may not capture long-term weight loss trends, plateaus, or rebound effects.
