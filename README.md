@@ -15,20 +15,20 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 Variables that affect the system and their distribution:​
 
 Input Variables:​
-      User Attributes: age, height, weight, calorie intake, gender.​
-      Activity MET Values and Duration​
-      Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
+      - User Attributes: age, height, weight, calorie intake, gender.​
+      - Activity MET Values and Duration​
+      - Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
 
 Defined Distributions for Random Variables:​
-      Workout Days per Week: Uniform distribution between 2 and 7.​
-      Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
-      Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
-      Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
+      - Workout Days per Week: Uniform distribution between 2 and 7.​
+      - Additional Calories Burned: Uniform distribution between 200 and 700 kcal.​
+      - Calorie Intake Variation: Uniform random variation of ±500 kcal around the user's base calorie intake.​
+      - Sleep Duration Variation: Uniform random variation of ±2 hours around the user’s average sleep duration.​
 
 The relationship between these inputs and the output (weight change):​
-      Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
-      Calories Burned from Activities: Using MET values and activity durations.​
-      Weight Change: Derived from calorie deficits or surpluses.​
+      - Resting Metabolic Rate (RMR): Calculated using the weight, height, age, gender.​
+      - Calories Burned from Activities: Using MET values and activity durations.​
+      - Weight Change: Derived from calorie deficits or surpluses.​
 
 **Stage 2 - Validation**
 
@@ -49,10 +49,10 @@ The random sampling is repeated for the number of simulations, with each simulat
 
 **Stage 3 - Experiment and Predictions**​
 
-Ran the simulation for many iterations.​
-Introduced more random variables to experiment the simulation.​
-Made variations to the fixed variables from the initial hypothesis.​
-Compared the initial hypothesis with the newer ones and made conclusions​
+- Ran the simulation for many iterations.​
+- Introduced more random variables to experiment the simulation.​
+- Made variations to the fixed variables from the initial hypothesis.​
+- Compared the initial hypothesis with the newer ones and made conclusions​.
 
 <img width="1053" alt="image" src="https://github.com/user-attachments/assets/9c06e959-7ead-4f7f-9bb3-d398dcd65e12" />
 
