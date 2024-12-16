@@ -16,9 +16,9 @@ Weight loss is a common goal for many individuals, yet achieving it effectively 
 Variables that affect the system and their distribution:​
 
 Input Variables:​
-      - User Attributes: age, height, weight, calorie intake, gender.​
-      - Activity MET Values and Duration​
-      - Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
+- User Attributes: age, height, weight, calorie intake, gender.​
+- Activity MET Values and Duration​
+- Additional Factors: workout days, additional calories burned from non-workout activities, sleep duration.​
 
 Defined Distributions for Random Variables:​
       - Workout Days per Week: Uniform distribution between 2 and 7.​
