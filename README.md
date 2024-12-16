@@ -58,6 +58,13 @@ The random sampling is repeated for the number of simulations, with each simulat
 
 <img width="1053" alt="image" src="https://github.com/user-attachments/assets/9c06e959-7ead-4f7f-9bb3-d398dcd65e12" />
 
+## Assumptions:
+1) Additional calories is the non-exercise calories that an individual might burn apart from working out and RMR​
+2) We have assumed that all the calculations we have used referenced from the paper are correct ​
+3) We have assumed that total calories burned is only the sum of RMR + Workout Calories + Additional Calories ​
+4) We have assumed that weight loss can be derived using Calorie Deficit which is the difference of Total Calories burned and Calorie Intake
+
+
 ## Hypothese and the Varibles Used:
 **Hypotheses 1:** Predicted weight loss over a fixed duration increases as the number of workout days in a week and additional calories burned (daily activity level) increase.
 
