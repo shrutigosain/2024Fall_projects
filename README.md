@@ -143,23 +143,11 @@ The Monte Carlo Simulation supports our hypotheses and the graph clearly shows t
 <img width="1048" alt="Hypotheses 3" src="https://github.com/user-attachments/assets/4c16582b-ff87-415c-bc3a-3008af13a1cd">
 
 **Future Scope**
-Integration of Real-Time Data:
-Incorporating real-time user data from wearable devices (e.g., Fitbit, Apple Watch) to dynamically update variables like activity levels, calorie intake, and sleep duration would make the predictions more personalized and accurate.
+- Expanding the model to include additional factors like stress levels, hormonal changes, and hydration could provide a more comprehensive understanding of weight loss outcomes.
 
-Enhanced Variable Complexity:
-Expanding the model to include additional factors like stress levels, hormonal changes, and hydration could provide a more comprehensive understanding of weight loss outcomes.
+- Introducing specific dietary plans (e.g., high-protein, ketogenic, or intermittent fasting) as input variables could allow users to compare their effectiveness alongside exercise and sleep.
 
-Dietary Pattern Simulation:
-Introducing specific dietary plans (e.g., high-protein, ketogenic, or intermittent fasting) as input variables could allow users to compare their effectiveness alongside exercise and sleep.
-
-Adaptive Simulations with Feedback:
-Incorporating machine learning algorithms to analyze historical trends and adjust simulation parameters for better predictions based on past performance.
-
-Visualization Enhancements:
-Improving visual outputs with interactive dashboards to allow users to experiment with variables and view dynamic weight loss predictions over time.
-
-Long-Term Prediction Analysis:
-Extending simulations to model weight loss outcomes over longer durations (e.g., months or years) while accounting for plateaus and metabolic adaptation.
+- Extending simulations to model weight loss outcomes over longer durations (e.g., months or years) while accounting for plateaus and metabolic adaptation.
 
 **Limitations**
 Simplified Assumptions:
