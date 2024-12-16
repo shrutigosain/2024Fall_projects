@@ -57,6 +57,8 @@ User Details:
 - Calorie Intake : 3000
 - Gender : male
 
+***This is what an ideal weight loss plot would look like for an individual on a strict regime during the simulation duration***
+
 ​<img width="1038" alt="image" src="https://github.com/user-attachments/assets/dd426c71-f274-4890-8a4c-67e7c0059a47" />
 For each simulation run, a new set of random values is generated for the random variables.​
 The random sampling is repeated for the number of simulations, with each simulation spanning weeks (7 days).​
